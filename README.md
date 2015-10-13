@@ -29,7 +29,7 @@ There are two tool sets you need to install on your machine before you can build
 
     Next, you need to install the dependencies for the Stheory Starter App.
 
-    Open terminal (command prompt), change directory into your project folder and run the following npm install scripts.
+    Open terminal (command prompt), navigate to your project folder and run the following npm install scripts.
 
     cd your-project-name
     npm install

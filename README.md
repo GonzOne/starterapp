@@ -23,7 +23,7 @@ There are two tool sets you need to install on your machine before you can build
 
 (2) Install the starter app
 
-    Download the zip rename the folder (your-project-name) and put it somewhere relevant on your machine.
+    Download the ZIP, rename the folder (your-project-name) and put it somewhere relevant on your machine.
 
 (3) Install dependencies
 

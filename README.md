@@ -18,6 +18,7 @@ There are two tool sets you need to install on your machine before you can build
     If Node responds, check the version matches the current version on NodeJS.org.
 
     If you don’t get a response or have an old version then go to NodeJS.org and click on the big green Install button.
+    
     NPM will be installed with NodeJS automatically.
 
 (2) Install the starter app

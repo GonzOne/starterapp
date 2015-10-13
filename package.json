@@ -2,7 +2,11 @@
   "name": "stheorystarter",
   "version": "1.0.0",
   "description": "A simple front-end template that helps you build a fast, modern mobile web app.",
-  "main": "gulpfile.js",
+  "main": "main.js",
+  "repository" :
+  { "type" : "git"
+        , "url" : "https://github.com/GonzOne/starterapp.git"
+  },
   "scripts": {
     "test": "serve"
   },

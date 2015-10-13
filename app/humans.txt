@@ -1,0 +1,16 @@
+/*  TEAM  */
+  Sole Developer: Manuel Gonzalez
+  Twitter: @codingcolor
+  Location: San Francisco, CA USA.
+
+/* THANKS  */
+
+  www: the internet
+
+
+/* SITE */
+
+  Last Update: 2015/10/15
+  Standards: Html5, CSS#, GULP, BOWER, NODE
+  Components, Modernizer, JQuery, Boostrap
+  IDE : Webstorm, Photoshop

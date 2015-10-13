@@ -15,7 +15,7 @@ There are two tool sets you need to install on your machine before you can build
     node -v.
 
 
-    If Node responds, check the version matches the current version on <a href="http://nodejs.org">NodeJS.org.</a>
+    If Node responds, check the version matches the current version on NodeJS.org.
 
     If you don’t get a response or have an old version then go to NodeJS.org and click on the big green Install button.
     NPM will be installed with NodeJS automatically.
@@ -27,6 +27,7 @@ There are two tool sets you need to install on your machine before you can build
 (3) Install dependencies
 
     Next, you need to install the dependencies for the Stheory Starter App.
+
     Open terminal (command prompt), change directory into your project folder and run the following npm install scripts.
 
     cd your-project-name

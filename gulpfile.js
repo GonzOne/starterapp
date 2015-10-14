@@ -82,12 +82,6 @@ gulp.task('html',function(){
 // Clean output directory
 gulp.task('clean', del.bind(null, ['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
 
-// Deploy to gh-pages
-gulp.task('deploy', function() {
-    return gulp.src('./dist/**/*')
-        .pipe(ghPages());
-});
-
 gulp.task('serve', function () {
   browserSync({
     notify: false,
@@ -121,9 +115,5 @@ gulp.task('serve:dist', ['default'], function () {
 
 // Build production files, the default task
 gulp.task('default', ['clean'], function (cb) {
-    runSequence('jshint', ['scripts','html','copy'], cb);
-});
-// Build production files, the default task
-gulp.task('gh-pages', ['clean'], function (cb) {
     runSequence('jshint', ['scripts','html','copy'], cb);
 });

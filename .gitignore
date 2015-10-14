@@ -8,7 +8,9 @@ npm-debug.log*
 pids
 *.pid
 *.seed
+
 ## Directory-based project format:
+dist
 .idea/
 
 

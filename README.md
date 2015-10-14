@@ -2,6 +2,7 @@
 
 A simple front-end template that helps you build a fast, modern mobile web app.
 
+[DEMO](http://gonzone.github.io/starterapp/)
 ## Dependencies
 
 There are two tool sets you need to install on your machine before you can build this starter app: NodeJS, NPM

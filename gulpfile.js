@@ -60,7 +60,7 @@ gulp.task('copy', function() {
         .pipe(gulp.dest('dist/fonts'))
         .pipe($.size({title: 'fonts'}));
 });
-
+//Clean up Html and Minify
 gulp.task('html',function(){
     var assets = $.useref.assets({searchPath: '{.tmp,app}'});
     return gulp.src('app/**/*.html')

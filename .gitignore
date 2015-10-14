@@ -10,7 +10,7 @@ pids
 *.seed
 
 
-# Compiled binary addons)
+# Compiled binary addons
 dist
 
 # Dependency directory

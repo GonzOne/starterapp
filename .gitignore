@@ -9,10 +9,6 @@ pids
 *.pid
 *.seed
 
-
-# Compiled binary addons
-dist
-
 # Dependency directory
 node_modules
 

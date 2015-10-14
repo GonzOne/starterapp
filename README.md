@@ -31,7 +31,7 @@ There are two tool sets you need to install on your machine before you can build
 
     Open terminal (command prompt), navigate to your project folder and run the following npm install scripts.
 
-    cd path/to/your-project-name
+    cd /path/to/your-project-name
     
     npm install
     

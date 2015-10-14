@@ -23,9 +23,9 @@ There are two tool sets you need to install on your machine before you can build
 
 (2) Install the starter app
 
-    Download the ZIP, rename the folder (your-project-name) and put it somewhere relevant on your machine.
+    Download the starter app ZIP, rename the folder (your-project-name) and put it somewhere relevant on your machine.
 
-(3) Install dependencies
+(3) Install the dependencies
 
     Next, you need to install the dependencies for the Stheory Starter App.
 

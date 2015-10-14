@@ -6,6 +6,7 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var pngquant = require('imagemin-pngquant');
 
 
 
@@ -46,11 +47,11 @@ gulp.task('copy', function() {
 
     //Images   
     gulp.src('app/images/**/*')
-        // Optimize images
-        .pipe($.cache($.imagemin({
+        .pipe($.imagemin({
             progressive: true,
-            interlaced: true
-        })))
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
         .pipe(gulp.dest('dist/images'))
         .pipe($.size({title: 'images'}));
 
